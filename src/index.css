@@ -1,0 +1,60 @@
+
+body {
+    font-family: Arial, sans-serif; /* Example font-family */
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0; /* Example background color */
+    
+}
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 16px;
+    width: 300px;
+    margin: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+}
+
+.card img {
+    width: 50%;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+
+.card h2 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.custom-button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button:hover {
+    background-color: #45a049; /* Darker green */
+}
+
+.custom-button:focus {
+    outline: none;
+}
+
+/* Optional: Add more styles as needed */
