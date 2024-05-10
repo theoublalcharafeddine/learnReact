@@ -35,7 +35,7 @@ body {
 }
 
 .custom-button {
-    background-color: #4CAF50; /* Green */
+    background-color: hwb(167 42% 21% / 0.726); /* Green */
     border: none;
     color: white;
     padding: 15px 32px;
@@ -50,7 +50,7 @@ body {
 }
 
 .custom-button:hover {
-    background-color: #45a049; /* Darker green */
+    background-color: hwb(167 21% 40% / 0.726); /* Darker green */
 }
 
 .custom-button:focus {
@@ -58,3 +58,14 @@ body {
 }
 
 /* Optional: Add more styles as needed */
+.custom-link {
+    color: rgb(123, 123, 136); /* Change the color of the text */
+    text-decoration: none; /* Underline the text to resemble a hyperlink */
+    cursor: pointer; /* Change the cursor to a pointer when hovering */
+    font-weight: bold; /* Optionally make the text bold */
+}
+
+.custom-link:hover {
+    color: rgb(94, 94, 107); /* Change the color of the text when hovering */
+    text-decoration: underline; /* Maintain underline when hovering */
+}
