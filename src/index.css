@@ -1,45 +1,41 @@
-/* Styling for the body */
-/* Styling for the body */
-body {
-  background-color: #c1b1d3; /* Light gray background */
-  font-family: Arial, sans-serif; /* Example font-family */
-  margin: 0;
-  padding: 0;
-}
-
-/* Styling for the list */
-.friends-list {
-  list-style: none;
-  padding: 0;
-}
-
-/* Styling for each list item */
-.list-item {
-  background-color: #2e6aa7;
-  margin-bottom: 10px;
-  padding: 10px;
-  border-radius: 5px;
-  transition: background-color 0.3s ease;
-}
-
-/* Hover effect for list items */
-.list-item:hover {
-  background-color: #3890e9;
-}
-
-/* Styling for friend's information */
-.friend-info {
-  display: flex;
-  flex-direction: column;
-}
-
-/* Styling for friend's name */
-.friend-name {
-  font-weight: bold;
-  color: #212529; /* Dark color */
-}
-
-/* Styling for friend's age */
-.friend-age {
-  color: #6c757d; /* Medium color */
-}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .count {
+    margin-right: 20px;
+    font-size: 24px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .decrement-btn {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .restart-btn {
+    background-color: #45aaf2;
+    color: white;
+  }
+  
+  .increment-btn {
+    background-color: #4cd137;
+    color: white;
+  }
+  

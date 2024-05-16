@@ -1,15 +1,14 @@
-import List from './list.jsx'
 
+import MyCompoment from "./MyCompoment";
 
 
 function App() {
   
   return (
-
-        <>
-            <List />
-        </>
-  )
+    <>
+        <MyCompoment />
+    </>
+  );
 }
 
-export default App
+export default App;
