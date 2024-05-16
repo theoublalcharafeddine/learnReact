@@ -1,62 +1,14 @@
-import Card from './Card.jsx'
+
+import MyCompoment from "./MyCompoment";
+
 
 function App() {
   
   return (
     <>
-
-         <Card 
-         name="theoublal"
-         age = {21}
-         AKA = "theoublal"
-         Placeofgrowth = "taroudant"
-         isWork = {true}
-         />
-      
-
-         <Card 
-         name=" charafe ddine "
-         age = {21}
-         AKA = "theWhileAlphaC"
-         Placeofgrowth = "TATA"
-         isWork = {false}
-         />
-         <Card 
-         name="theoublal"
-         age = {21}
-         AKA = "theoublal"
-         Placeofgrowth = "taroudant"
-         isWork = {true}
-         />
-      
-
-         <Card 
-         name=" charafe ddine "
-         age = {21}
-         AKA = "theWhileAlphaC"
-         Placeofgrowth = "TATA"
-         isWork = {false}
-         />
-         <Card 
-         name="theoublal"
-         age = {21}
-         AKA = "theoublal"
-         Placeofgrowth = "taroudant"
-         isWork = {true}
-         />
-      
-
-         <Card 
-         name=" charafe ddine "
-         age = {21}
-         AKA = "theWhileAlphaC"
-         Placeofgrowth = "TATA"
-         isWork = {false}
-         />
-
-      </>
-
-  )
+        <MyCompoment />
+    </>
+  );
 }
 
-export default App
+export default App;

@@ -1,71 +1,41 @@
-
-body {
-    font-family: Arial, sans-serif; /* Example font-family */
-    margin: 0;
-    padding: 0;
-    background-color: #f0f0f0; /* Example background color */
-    
-}
-.card {
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    padding: 16px;
-    width: 300px;
-    margin: 16px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    display: inline-block;
-}
-
-.card img {
-    width: 50%;
-    border-radius: 8px;
-    margin-bottom: 16px;
-}
-
-.card h2 {
-    color: #333;
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .button-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .count {
+    margin-right: 20px;
     font-size: 24px;
-    margin-bottom: 8px;
-}
-
-.card p {
-    color: #666;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
     font-size: 16px;
-    line-height: 1.5;
-}
-
-.custom-button {
-    background-color: hwb(167 42% 21% / 0.726); /* Green */
     border: none;
-    color: white;
-    padding: 15px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 4px 2px;
+    border-radius: 5px;
     cursor: pointer;
-    border-radius: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.custom-button:hover {
-    background-color: hwb(167 21% 40% / 0.726); /* Darker green */
-}
-
-.custom-button:focus {
-    outline: none;
-}
-
-/* Optional: Add more styles as needed */
-.custom-link {
-    color: rgb(123, 123, 136); /* Change the color of the text */
-    text-decoration: none; /* Underline the text to resemble a hyperlink */
-    cursor: pointer; /* Change the cursor to a pointer when hovering */
-    font-weight: bold; /* Optionally make the text bold */
-}
-
-.custom-link:hover {
-    color: rgb(94, 94, 107); /* Change the color of the text when hovering */
-    text-decoration: underline; /* Maintain underline when hovering */
-}
+  }
+  
+  .decrement-btn {
+    background-color: #ff6b6b;
+    color: white;
+  }
+  
+  .restart-btn {
+    background-color: #45aaf2;
+    color: white;
+  }
+  
+  .increment-btn {
+    background-color: #4cd137;
+    color: white;
+  }
+  
