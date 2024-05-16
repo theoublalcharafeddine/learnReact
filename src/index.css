@@ -10,8 +10,16 @@
     align-items: center;
   }
   
-  .count {
+  .my-paragraf {
+    padding: 10px;
     margin-right: 20px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .count {
+    margin: 0;
     font-size: 24px;
   }
   
@@ -22,6 +30,11 @@
     border: none;
     border-radius: 5px;
     cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #e2e2e2;
   }
   
   .decrement-btn {
@@ -37,5 +50,14 @@
   .increment-btn {
     background-color: #4cd137;
     color: white;
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
   }
   

@@ -15,11 +15,16 @@ function MyCompoment (){
 
 
     return(
-    <div className="container" >
 
+    <div className="container" >
+             
             <div className="button-container">
 
-                <p className="count" >{count}</p>
+                <div className = 'my-paragraf'>
+                    
+                    <p className="count" >{count}</p>
+                </div>
+           
 
                 <button onClick = {decrement} className = "decrement-btn"> decrement</button>
 
